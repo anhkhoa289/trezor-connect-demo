@@ -1,7 +1,7 @@
 import React from 'react'
 import Web3 from 'web3'
 
-class UsingWeb3 extends React.component {
+class UsingWeb3 extends React.Component {
  
     constructor(props) {
         super(props)

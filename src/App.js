@@ -11,11 +11,10 @@ class App extends Component {
   render() {
     return (
       <div>
-
         <Route exact path='/' component={HomePage} />
-        {/* <Route path='/address' component={Address} /> */}
-        {/* <Route path='/sendMoney' component={SendMoney} /> */}
-        {/* <Route path='/web3' component={UsingWeb3} /> */}
+        <Route path='/address' component={Address} />
+        <Route path='/sendMoney' component={SendMoney} />
+        <Route path='/web3' component={UsingWeb3} />
 
 
       </div>
