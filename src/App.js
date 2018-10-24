@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
-import Address from './screen/Address'
-import UsingWeb3 from './screen/UsingWeb3';
 import HomePage from './screen/HomePage';
-import SendMoney from './screen/SendMoney'
+import Address from './screen/Address'
+import ManyAddress from './screen/ManyAddress';
+import TrezorJs from './screen/TrezorJs';
+import UsingWeb3 from './screen/UsingWeb3';
 
 class App extends Component {
   
@@ -13,9 +14,9 @@ class App extends Component {
       <div>
         <Route exact path='/' component={HomePage} />
         <Route path='/address' component={Address} />
-        <Route path='/sendMoney' component={SendMoney} />
+        <Route path='/many-address' component={ManyAddress} />
         <Route path='/web3' component={UsingWeb3} />
-
+        <Route path='/trezor-js' component={TrezorJs} />
 
       </div>
     );
