@@ -5,6 +5,7 @@ import Address from './screen/Address'
 import ManyAddress from './screen/ManyAddress';
 import TrezorJs from './screen/TrezorJs';
 import UsingWeb3 from './screen/UsingWeb3';
+import SendMoney from './screen/SendMoney';
 
 class App extends Component {
   
@@ -15,6 +16,7 @@ class App extends Component {
         <Route exact path='/' component={HomePage} />
         <Route path='/address' component={Address} />
         <Route path='/many-address' component={ManyAddress} />
+        <Route path='/send-money' component={SendMoney} />
         <Route path='/web3' component={UsingWeb3} />
         <Route path='/trezor-js' component={TrezorJs} />
 

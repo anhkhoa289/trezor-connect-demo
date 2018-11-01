@@ -9,6 +9,7 @@ class HomePage extends React.Component {
                 <p><Link to="/">Home Page</Link></p>
                 <p><Link to="/address">Get address</Link></p>
                 <p><Link to="/many-address">Get many address</Link></p>
+                <p><Link to="/send-money">Send money</Link></p>
                 <p><Link to="/web3">Using web3</Link></p>
                 <p><Link to="/trezor-js">Trezor Js</Link></p>
             </div>
